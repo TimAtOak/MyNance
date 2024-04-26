@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "WMDtpGvTxAmFWsq6DHczP29X+jiOZ5Uym2xT7z/9gns=",
+  "Source": "MyNance.Server",
+  "BasePath": "_content/MyNance.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\stableProjects\\MyNance\\mynance.client\\mynance.client.esproj",
+      "Version": 2,
+      "Source": "mynance.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
