@@ -3,22 +3,20 @@ import { Content } from "./layout/Content";
 import { Header } from "./layout/Header";
 
 const useClasses = makeStyles({
-    appContainer: {
-        height: "100%",
-        backgroundColor: tokens.colorBrandBackground,
-    }
-
+  appContainer: {
+    height: "100%",
+  },
 });
 
 function App() {
-    const { appContainer } = useClasses();
+  const { appContainer } = useClasses();
 
-    return (
-        <div className={appContainer}>
-            <Header />
-            <Content />
-        </div>
-    );
+  return (
+    <div className={appContainer}>
+      <Header />
+      <Content />
+    </div>
+  );
 }
 
 export default App;
