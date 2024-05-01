@@ -5,7 +5,7 @@ import './index.css'
 import { FluentProvider, teamsDarkTheme, teamsLightTheme } from '@fluentui/react-components';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <FluentProvider theme={teamsDarkTheme}>
+  <FluentProvider theme={teamsLightTheme}>
     <React.StrictMode>
       <App />
     </React.StrictMode>

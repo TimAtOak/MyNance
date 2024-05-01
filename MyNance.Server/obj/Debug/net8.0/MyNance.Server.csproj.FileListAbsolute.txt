@@ -33,3 +33,4 @@ D:\stableProjects\MyNance\MyNance.Server\obj\Debug\net8.0\refint\MyNance.Server.
 D:\stableProjects\MyNance\MyNance.Server\obj\Debug\net8.0\MyNance.Server.pdb
 D:\stableProjects\MyNance\MyNance.Server\obj\Debug\net8.0\MyNance.Server.genruntimeconfig.cache
 D:\stableProjects\MyNance\MyNance.Server\obj\Debug\net8.0\ref\MyNance.Server.dll
+D:\stableProjects\MyNance\MyNance.Server\obj\Debug\net8.0\MyNance.Server.sourcelink.json
