@@ -12,19 +12,9 @@ import {
 } from "@fluentui/react-components";
 import { ChevronDoubleRightFilled } from "@fluentui/react-icons";
 import { useState } from "react";
+import { Link } from "wouter";
+
 const useClasses = makeStyles({
-  mainContainer: {
-    height: "calc(100% - 52px)",
-    backgroundColor: tokens.colorNeutralBackground1,
-    ...shorthands.padding(tokens.spacingHorizontalL),
-    ...shorthands.transition("all", "4s", "ease-in-out", "1s"),
-  },
-  wrapper: {
-    display: "grid",
-    gridTemplateColumns: "max-content max-content 1fr",
-    height: "calc(100vh - 52px)",
-    position: "relative",
-  },
   iconBar: {
     zIndex: "1",
     backgroundColor: tokens.colorBrandBackground2,
@@ -35,17 +25,22 @@ const useClasses = makeStyles({
   },
   drawerContent: {
     backgroundColor: tokens.colorBrandBackground2,
-    ...shorthands.padding(0)
+    ...shorthands.padding(0),
+  },
+  menu: {
+    marginTop: tokens.spacingVerticalM,
+    ...shorthands.padding(0),
+  },
+  link: {
+    textDecorationLine: "none",
   },
 });
 
-export const Content = () => {
-  const { mainContainer, wrapper, iconBar, drawer, drawerContent } =
-    useClasses();
-  const [open, setOpen] = useState(false);
-
+export const Sidebar = () => {
+  const [open, setOpen] = useState(true);
+  const { iconBar, drawer, drawerContent, menu, link } = useClasses();
   return (
-    <div className={wrapper}>
+    <>
       <div className={iconBar}>
         <Button
           appearance="transparent"
@@ -70,15 +65,17 @@ export const Content = () => {
           </DrawerHeader>
 
           <DrawerBody className={drawerContent}>
-            <MenuList style={{marginTop: tokens.spacingVerticalM, padding: 0}}>
-              <MenuItem style={{width:"100%"}}>Overview</MenuItem>
-              <MenuItem>Goals</MenuItem>
-              <MenuItem>Other</MenuItem>
+            <MenuList className={menu}>
+              <Link className={link} href="/">
+                <MenuItem>Dashboard</MenuItem>
+              </Link>
+              <Link className={link} href="/income">
+                <MenuItem>Income</MenuItem>
+              </Link>
             </MenuList>
           </DrawerBody>
         </InlineDrawer>
       </nav>
-      <main className={mainContainer}>Main Content</main>
-    </div>
+    </>
   );
 };

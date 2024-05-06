@@ -1,5 +1,5 @@
 import { makeStyles, shorthands, tokens } from "@fluentui/react-components";
-import { Content } from "./layout/Content";
+import { Layout } from "./layout/Layout/Layout";
 import { Header } from "./layout/Header";
 
 const useClasses = makeStyles({
@@ -14,7 +14,7 @@ function App() {
   return (
     <div className={appContainer}>
       <Header />
-      <Content />
+      <Layout />
     </div>
   );
 }
