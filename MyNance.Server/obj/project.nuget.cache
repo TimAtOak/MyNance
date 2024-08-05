@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "B48DLKwxRy5c1zqjL6K6HpW5+kDcCt1cdCG/nKxtRPRs96ClwTuToFcEOpivgUFhN/A7T22IVI/J5h2aCo29mw==",
+  "dgSpecHash": "GvQYC8ARHLqwQB9pRiHjHLbV/CmfOHOuKDxJk/f6X0uB+fcMK+CHNsCgD/t+N09ZMBA/FuvvNc3h5EeSGhCQyg==",
   "success": true,
   "projectFilePath": "D:\\stableProjects\\MyNance\\MyNance.Server\\MyNance.Server.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ineic\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.4\\microsoft.aspnetcore.spaproxy.8.0.4.nupkg.sha512",
+    "C:\\Users\\ineic\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.7\\microsoft.aspnetcore.spaproxy.8.0.7.nupkg.sha512",
     "C:\\Users\\ineic\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\ineic\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\ineic\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",

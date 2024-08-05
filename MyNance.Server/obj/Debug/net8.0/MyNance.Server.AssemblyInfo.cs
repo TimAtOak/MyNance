@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyNance.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab09dcc11ae616bedfe6282c1b78a82ba9e12d15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdbfd65b4bbcde79667e90767f6e7954fae0e4ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyNance.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyNance.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
